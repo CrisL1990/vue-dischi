@@ -8,7 +8,7 @@
     </div>
 -->
 
-    <div class="card" style="width: calc(20% - 40px);">
+    <div class="card" style="width: 12rem;">
         <img :src="disco.poster" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title title">{{disco.title}}</h5>
@@ -37,8 +37,7 @@ export default {
 
         img{
             margin-top: 15px;
-            width: 100%;
-            height: 100%;
+           
         }
 
         .title{

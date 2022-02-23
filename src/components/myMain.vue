@@ -1,6 +1,6 @@
 <template>
     <main class="container">
-        <div class="row">
+        <div class="row flex-wrap d-flex">
             <myCard v-for="(disco, index) in dischi.response" 
             :key="index"
             :disco="disco"
